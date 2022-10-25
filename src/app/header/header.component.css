@@ -4,16 +4,26 @@
     width: 100%;
 } */
 .profilepic{
-    width:340px; 
-    margin-left: 20px;
+    width:240px; 
+    margin-left: 25px;
     border-radius: 50%;
     margin-top: 15;
 }
-
+#name {
+    margin-left: 0em;
+}
+#post{
+    margin-left: 3rem;
+}
+.sidealign{
+    margin-left: 5rem;
+  justify-content: space-between;
+    
+}
 .menu ul{
     padding: 0;
     margin: 0;
-    margin-left: 20px;
+    margin-left: 8px;
     margin-top: 10px;
     list-style-type: none;
     color:#170212   
@@ -22,7 +32,7 @@
  a{
     list-style-type: none;
     color: #170212;
-    /* margin-left: 20px; */
+
 }
 a:link {
     text-decoration: none;
@@ -30,24 +40,36 @@ a:link {
 ul{
     list-style: none;
     padding-left: 1rem;
-    margin-top: 10;
-    margin-left: 40px;
+    margin-top: 30;
+    margin-left: 15px;
     transition: all .3s ease;
 }
+
 #sidebar {
-    width: 400px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 200vh;
     z-index: 999;
     background: rgb(149, 127, 164);
     color: #170212;
     transition: all 0.3s;
 
+
 }
 .landing{
     background:rgb(247, 223, 238);
+   padding-bottom:500px;
+}
+.lancontents{
+    margin-left: 450px;
+    padding:50 ;
+    margin-bottom: 30px;
+}
+#lan{
+    display: flex;
+    margin-top: 210;
 }
 .contents{
     
@@ -186,7 +208,7 @@ button{
 footer{
     padding: 12px 0;
     background:#fff;
-    margin-top: 900px;
+    margin-top: 0px;
     margin-bottom: -10%;
 }
 .foot{
@@ -199,4 +221,10 @@ footer{
     margin-left: 10px;
     margin-bottom:0px;
     font-size: 28;
+}
+
+.foot i:hover{
+    margin:2px;
+    cursor: pointer;
+    transition: all .3s ease-in;
 }

@@ -5,12 +5,13 @@
   <nav id="sidebar">
        <img src="assets/portprofilr.jpg" alt="" class="profilepic">
           <ul class="list-unstyled components"  class="menu">
-          <h3>Tiya Reba Stephen</h3>
-          <h6>FullStack Developer</h6>
+          <h3 id="name">Tiya Reba Stephen</h3>
+          <h6 id="post">FullStack Developer</h6>
+          <div class="sidealign">
           <li class="active" >
             <i class="fa fa-home" aria-hidden="true"></i>
             
-              <a id="anchor" routerLink="/">Home</a>
+              <a href="#home">Home</a>
           </li>
           <li>
             <i class="fa fa-id-badge" aria-hidden="true"></i>
@@ -18,29 +19,38 @@
           </li>
           <li>
             <i class="fa fa-map-o" aria-hidden="true"></i>
-              <a routerLink="/sam" >Samples</a>
+              <a href="#samples">Samples</a>
           </li>
           <li>
             <i class="fa fa-address-book-o" aria-hidden="true"></i>
               <a routerLink="/contact">Contact</a>
           </li>
+          
+</div>
       </ul>
+      
   </nav>
 
  
   <!-- Page Content -->
-  <section class="landing">
-     <div class="contents">
-           <h3 style="font-family: aria-expanded">I design and develop experiences that make people's lives Simple.....</h3>
+  <section id="home=">
+    <div class="landing">
+      <div class="backgroound img">
+            
+     <div class="lancontents">
+           <h3 istyle="font-family:Georgia (serif)" id="lan">I design and develop experiences that make people's lives Simple.....</h3>
           <div class="button">
           <button type="button">Hire Me <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
           <!-- <a href="#" class="hire"> Hire Me </a><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> -->
           </div> 
 </div>
+</div>
+</div>
 </section>
 
 <!-- services session -->
-<section class="services">
+<div id="about=">
+<section class="services" >
   <div class="contents">
     <div class="row">
 
@@ -89,6 +99,8 @@
 </div>
 
   </section>
+</div>
+<section id="samples=">
   <section class="testimony">
     <div class="contents">
       <div class="row">
@@ -135,6 +147,7 @@
     </div>
   </div>
   </section>
+</section>
 
     <footer>
       <div class="container">
